@@ -22,8 +22,8 @@ public final class DriverFactory {
 	public static WebDriver getDriver(String browser,String version,String platform) throws MalformedURLException {
 		WebDriver driver = null;
 		String runmode = PropertyFileUtil.readDataFromPropertyFile(ConfigProperties.RUNMODE);
-		String username="tpktalari";
-		String accesskey="4VY1xcaCIvzpMrxo3XLFQt4Q9qIlUwzdGIq4vTODxIKEYJ183h";
+		String username="pavankumar61652";
+		String accesskey="b3axE7GOgBOsw24q0VNjQSFaczGbBKg5SS7v5260ITN40lAPP4";
 	    String gridURL = "@hub.lambdatest.com/wd/hub";
 		
 			if (runmode.equalsIgnoreCase("remote")) {
