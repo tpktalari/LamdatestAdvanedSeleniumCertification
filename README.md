@@ -4,7 +4,7 @@ This project demonstrates how to configure and run TestNG tests in parallel usin
 
 [ Note : The file "Selenium Advanced_Assignment Problem Scenario & Instructions_1" given by the lamda test
   and in the instructions to write the test script there is slight deviation.
-  As mentioned in the step 6 [Click the ‘LEARN MORE’ link for Testing Whiz. The page should open
+  As mentioned in the step 8 [Click the ‘LEARN MORE’ link for Testing Whiz. The page should open
   in the same window], 'LEARN MORE' is not available instead other link is available. hence I assume that 
   as 'LEARN MORE' link and gave soft assertion hence test script will always outputs a soft assertion error. ] 
 
