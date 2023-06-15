@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [LamdaTestSuite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="edge"/>
+  <parameter name="version" value="87.0"/>
+  <parameter name="platform" value="macOS Sierra"/>
+  <test parallel="tests" name="Chrome_Windows10_Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="version" value="86.0"/>
+    <parameter name="platform" value="WIN10"/>
+    <classes>
+      <class name="com.lamdatest.tests.LamdaTestAssesmentAdvanced_1Test">
+        <methods>
+          <include name="ScenarioLTC_Test"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.lamdatest.tests.LamdaTestAssesmentAdvanced_1Test -->
+      <class name="com.lamdatest.tests.LamdaTestAssesmentAdvanced_2Test">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.lamdatest.tests.LamdaTestAssesmentAdvanced_2Test -->
+    </classes>
+  </test> <!-- Chrome_Windows10_Test(failed) -->
+  <test parallel="tests" name="Edge_Mac_Test(failed)">
+    <parameter name="browser" value="edge"/>
+    <parameter name="version" value="87.0"/>
+    <parameter name="platform" value="macOS Sierra"/>
+    <classes>
+      <class name="com.lamdatest.tests.LamdaTestAssesmentAdvanced_1Test">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.lamdatest.tests.LamdaTestAssesmentAdvanced_1Test -->
+      <class name="com.lamdatest.tests.LamdaTestAssesmentAdvanced_2Test">
+        <methods>
+          <include name="setUp"/>
+          <include name="ScenarioLTC_Test"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.lamdatest.tests.LamdaTestAssesmentAdvanced_2Test -->
+    </classes>
+  </test> <!-- Edge_Mac_Test(failed) -->
+</suite> <!-- Failed suite [LamdaTestSuite] -->
